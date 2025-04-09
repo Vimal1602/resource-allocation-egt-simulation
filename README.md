@@ -1,16 +1,25 @@
-contourpy==1.3.1
-cycler==0.12.1
-fonttools==4.57.0
-kiwisolver==1.4.8
-matplotlib==3.10.1
-numpy==2.2.4
-packaging==24.2
-pandas==2.2.3
-pillow==11.1.0
-pyparsing==3.2.3
-python-dateutil==2.9.0.post0
-pytz==2025.2
-scipy==1.15.2
-seaborn==0.13.2
-six==1.17.0
-tzdata==2025.2
+# Resource Allocation & Security Simulation using Game Theory
+
+This repository contains two Python implementations of game theory models applied to distributed computing and network security.
+
+## 🧠 Topics Covered
+
+1. **Resource Allocation in Cloud Computing using Game Theory**
+   - Filename: `firstcodepython.py`
+
+2. **Security Threat Detection using Evolutionary Game Theory**
+   - Filename: `secondcodepython.py`
+
+## ▶️ How to Run
+
+```bash
+# Create virtual environment (optional)
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run simulations
+python firstcodepython.py
+python secondcodepython.py
